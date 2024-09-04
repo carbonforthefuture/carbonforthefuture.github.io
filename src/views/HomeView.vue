@@ -9,6 +9,7 @@
         <label class="home-label-title">
           <strong>企业介绍：</strong>
         </label>
+        <img class="home-main-img" src="@/assets/images/display.jpg" />
         <label class="home-label-text">
           &emsp;&emsp;在全球气候变化形势日益严峻的今天，经济和环境的可持续发展，成为全人类共同面临的重大课题。为了全人类的生息与福祉，中国政府向世界庄严宣告了2030年实现“碳达峰”，2060年实现“碳中和”的伟大愿景。为此，“碳益未来”应运而生于中国南京，推出具有突破性的创新技术，解决以钢铁冶炼为代表的工业生产中，长期存在的高碳排放问题。针对钢铁行业这一典型高排放领域，“碳益未来”提供了一套完整的二氧化碳捕集与封存（CCUS）解决方案，利用钢铁生产中的冶炼废渣作为二氧化碳矿化封存的媒介，通过先进的pH-swing技术和ALKALoop二氧化碳高值矿化技术，从工业废气中高效脱除二氧化碳，以极低的能耗将之转化为高附加值、易于利用的副产品——轻质碳酸钙，一举两得地解决了钢铁冶炼的废气和废渣处理两大难题，另辟蹊径，变废为宝，在实现节能减排目标的同时亦创造可观的经济效益。
         </label>
@@ -74,13 +75,18 @@
 }
 
 .home-main {
-  width: 55vw;
+  width: 65vw;
   padding: 0 3vw;
   border-right: 1px solid rgba(0, 0, 0, 0.8);
   height: calc(100vh - 120px);
   margin: 0;
   display: flex;
   flex-direction: column;
+}
+
+.home-main-img {
+  height: 30vh;
+  margin: auto;
 }
 
 .home-label-title {
@@ -90,14 +96,14 @@
 }
 
 .home-label-text {
-  font-size: 22px;
-  margin: 10px;
+  font-size: 18px;
+  margin: 5px;
   padding: 0 25px;
 }
 
 .home-aside {
   height: calc(100vh - 120px);
-  width: 35vw;
+  width: 25vw;
   padding: 0 3vw;
   display: flex;
   flex-direction: column;
