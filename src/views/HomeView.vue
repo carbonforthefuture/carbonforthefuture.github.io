@@ -26,7 +26,7 @@
               <strong>合作伙伴</strong>
             </label>
           </el-row>
-          <el-row style="background-color: #fff;">
+          <el-row style="background-color: #fff">
             <a href="http://www.xusteel.cn" class="home-logo-link" target="_blank">
               <img class="home-logo" src="@/assets/images/org1.png" />
             </a>
@@ -84,7 +84,7 @@
 }
 
 .home-brief-text {
-  font-size: 32px;
+  font-size: 28px;
 }
 
 .home-content {
@@ -116,7 +116,7 @@
 .home-container {
   height: 100vh;
   width: 100vw;
-  background-image: url("@/assets/images/display.jpg");
+  background-image: url('@/assets/images/display.jpg');
   background-size: cover;
 }
 
